@@ -8,7 +8,6 @@
 </style>
 	<body>
 		<?php
-			include "html/headers/header.php";
 			include "html/headers/header_news.php";
 			include "html/articles.php";
 			?>
