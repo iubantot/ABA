@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-		  <a class="navbar-brand" href="../uhack/">
+		  <a class="navbar-brand" href="../ABA">
 		  <!--Logo here -->
 		  <img src="../ABA/img/logo.png" width="auto" height="100px">
 		  </a>

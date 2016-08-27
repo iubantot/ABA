@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-		  <a class="navbar-brand" href="../uhack/">
+		  <a class="navbar-brand" href="../ABA">
 		  <!--Logo here -->
 		  <img src="../ABA/img/logo.png" width="auto" height="100px">
 		  </a>
@@ -19,7 +19,10 @@
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="/ABA"><i  aria-hidden="true"></i> Home</a></li>
 			<li><a href="search.php"><i  aria-hidden="true"></i> Smart Search</a></li>
-			<li class="on"><a href="news.php"><i  aria-hidden="true"></i> What's New</a></li>
+			<li class="on dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i  aria-hidden="true"></i> What's New<span class="caret"></span></a>
+				<ul class="dropdown-menu"><a href="#arc1">UB QR-Code Payment</a></ul>
+			</li>
 			<li><a href="promotions.php"><i  aria-hidden="true"></i> Rewards</a></li>				
 			
 			<li class="dropdown">

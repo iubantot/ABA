@@ -5,10 +5,11 @@
 			include "html/lib_config.php";
 		?>
 	</head>
+</style>
 	<body>
 		<?php
 			include "html/headers/header_news.php";
-			include "html/articles.php"
+			include "html/articles.php";
 			?>
 	</body>
 </html>
