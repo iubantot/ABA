@@ -18,6 +18,7 @@
 					$re = "";
 					if($type=="savings"){
 						$table = "savings";
+						$re="rqmntsbasic";
 					}else if($type=="loan"){
 						$table = "loan";
 						$re="rqmntsbasic";
