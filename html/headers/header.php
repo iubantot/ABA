@@ -17,10 +17,10 @@
 
 		<!-- Navbar Right -->
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><i  aria-hidden="true"></i> Home</a></li>
+			<li><a href="index.php"><i  aria-hidden="true"></i> Home</a></li>
 			<li><a href="search.php"><i  aria-hidden="true"></i> Smart Search</a></li>
 			<li><a href="#"><i  aria-hidden="true"></i> What's New</a></li>
-			<li><a href="#"><i  aria-hidden="true"></i> Rewards</a></li>				
+			<li><a href="rewards.php"><i  aria-hidden="true"></i> Rewards</a></li>				
 			
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-users fa-fw" aria-hidden="true"></i> Sign in <span class="caret"></span></a>

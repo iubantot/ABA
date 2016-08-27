@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<?php
-			include "html/headers/header_news.php";
+			include "html/headers/header.php";
 			include "html/articles.php"
 			?>
 	</body>
