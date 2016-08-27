@@ -15,7 +15,7 @@
 				<div class="col-md-8 container-fluid">
 					<!--DYNAMIC PANELS-->
 						<?php
-						$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanID"];
+						$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanid"];
 						$result = $conn->query($queryID);
 						$num = mysqli_num_rows($result);
 						if ($result->num_rows > 0) {
@@ -38,7 +38,7 @@
 							while($row = $result->fetch_assoc()) {
 								$userID = $row["userID"];
 								$review = $row["review"];
-								$rating = $row["rating"];
+								$rating = $row["ratings"];
 								
 								echo '<div class="panel panel-primary">';
 								echo '<div class="panel panel-heading"><img src="showimage.php?id='.$userID.'" width="32" height="32"/> '.$row["username"].' &emsp;';
