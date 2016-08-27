@@ -8,7 +8,7 @@ session_start();
 </head>
 <body>
 <?php
-	include "html/headers/header.php";
+	include "html/headers/header_home.php";
 	include "html/carousel.php";
 ?>
 
