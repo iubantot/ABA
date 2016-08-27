@@ -59,8 +59,13 @@
 }
 /* end */
 
-
-
+/*order (smartsearch)*/
+.btn{
+  width: 100%;
+  border: none;
+  padding: 15px 32px;
+}
+/* end */
 
 /* Remove gray gradient on carousel*/
 .carousel-control.left, .carousel-control.right {
