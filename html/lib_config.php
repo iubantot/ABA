@@ -8,3 +8,4 @@
   <link rel="stylesheet" href="../ABA/css/style.css">
   <script src="../ABA/bootstrap/jquery/jquery.min.js"></script>
   <script src="../ABA/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../ABA/js/atin.js"></script>

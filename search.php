@@ -6,9 +6,19 @@
 		?>
 	</head>
 	<body>
+	<?php
+				include "html/headers/header_search.php";
+
+	?>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div>
 		<?php
-			include "html/headers/header_search.php";
 			include "html/order.php";
 		?>
+		</div>
 	</body>
 </html>
