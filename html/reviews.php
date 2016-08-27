@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <?php
 	include "connextion.php";
+	include "lib_config.php";
 ?>
 <html>
-<head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<link rel="icon" href="resources/icon.png">
-	<!--
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	-->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<script src="bootstrap/jquery/jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-</head>
+
 	
 <body>
 	<br><br>
@@ -27,7 +15,7 @@
 				<div class="col-md-8 container-fluid">
 					<!--DYNAMIC PANELS-->
 						<?php
-						$queryID = "SELECT * FROM loan WHERE loanid LIKE ".$_GET["loanid"];
+						$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanID"];
 						$result = $conn->query($queryID);
 						$num = mysqli_num_rows($result);
 						if ($result->num_rows > 0) {

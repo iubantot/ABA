@@ -7,7 +7,8 @@
 	</head>
 	<body>
 		<?php
-			include "html/headers/header_search.php";
+			include "html/headers/header.php";
+			include "html/order.php";
 		?>
 	</body>
 </html>

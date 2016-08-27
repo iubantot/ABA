@@ -18,7 +18,7 @@
 		<!-- Navbar Right -->
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="#"><i  aria-hidden="true"></i> Home</a></li>
-			<li><a href="#"><i  aria-hidden="true"></i> Smart Search</a></li>
+			<li><a href="search.php"><i  aria-hidden="true"></i> Smart Search</a></li>
 			<li><a href="#"><i  aria-hidden="true"></i> What's New</a></li>
 			<li><a href="#"><i  aria-hidden="true"></i> Rewards</a></li>				
 			
