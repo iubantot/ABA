@@ -10,7 +10,7 @@
       </button>
 		  <a class="navbar-brand" href="../uhack/">
 		  <!--Logo here -->
-		  <img src="../uhack/img/logo.png" width="auto" height="100px">
+		  <img src="../ABA/img/logo.png" width="auto" height="100px">
 		  </a>
 		</div>
 	<div class="collapse navbar-collapse" id="myNavbar">
