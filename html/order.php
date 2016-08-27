@@ -16,6 +16,8 @@
         document.getElementById("bal").style  = "DISPLAY: none;";
     };
 </script>
+
+<!-- Title-->
 <div class="container">
 	<div class="row form-group">
         <div class="col-xs-6">
@@ -35,6 +37,8 @@
             </ul>
         </div>
 	</div>
+	
+	<!-- step 1 choices -->
     <div class="row setup-content" id="step-1">
         <div class="col-xs-8">
             <div class="col-md-8 well text-center">
@@ -54,6 +58,8 @@
             </div>
         </div>
     </div>
+	
+	<!-- step 2 choices -->
     <div class="row setup-content" id="step-2">
         <div class="col-xs-8">
             <div class="col-md-8 well text-center">
@@ -76,6 +82,8 @@
             </div>
         </div>
     </div>
+	
+	<!-- step 3 choices -->
     <div class="row setup-content" id="step-3">
         <div class="col-xs-8">
             <div class="col-md-8 well text-center">
