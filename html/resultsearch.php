@@ -15,15 +15,18 @@
 					$type = $_GET["type"];
 					$range = $_GET["range"];
 					$table = "";
+					$re = "";
 					if($type=="savings"){
 						$table = "savings";
 					}else if($type=="loan"){
 						$table = "loan";
+						$re="rqmntsbasic";
 					}else if($type=="credit"){
 						$table = "credit";
+						$re = "features";
 					}
 					
-					$query = "SELECT b.name AS 'bank', a.loanID, a.name, a.rqmntsbasic FROM ".$table." a INNER JOIN bank b ON a.bankID=b.bankID WHERE a.rqmntsbasic LIKE '%".$status."%'";
+					$query = "SELECT b.name AS 'bank', a.".$table."ID, a.name, a.".$re." FROM ".$table." a INNER JOIN bank b ON a.bankID=b.bankID WHERE a.rqmntsbasic LIKE '%".$status."%'";
 					$result = $conn->query($query);
 					$num = mysqli_num_rows($result);
 					if ($result->num_rows > 0) {
