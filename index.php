@@ -8,14 +8,23 @@ session_start();
 </head>
 <body>
 <?php
-	include "html/header.php";
+	include "html/headers/header_home.php";
 	include "html/carousel.php";
 ?>
-	<script>
-		$('#home_bt').on('click', function() {
-			$('#home_bt').document.body.style.backgroundColor = "#66ccff";
-		});
-	</script>
+
+
+
 </body>
 
+	<script>
+		$(window).resize(function(){
+			var ele = $('#logo');
+			if (window.innerWidth<768) {
+				ele.hide();
+			}
+			else {
+				ele.show();
+			}
+		});
+	</script>
 </html>
