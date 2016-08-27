@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-	include "connextion.php";
+	include "localconn.php";
 	include "lib_config.php";
 ?>
 <html>
@@ -15,7 +15,7 @@
 				<div class="col-md-8 container-fluid">
 					<!--DYNAMIC PANELS-->
 						<?php
-						if(isset($_GET["loanid"]))
+						if(isset($_GET["loanid"])){
 						$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanid"];
 						$result = $conn->query($queryID);
 						$num = mysqli_num_rows($result);
