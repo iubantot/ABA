@@ -1,3 +1,17 @@
+
+.parallax-a{
+    /* The image used */
+    background-image: url("../img/news/qr.jpg");
+	/*http://il5.picdn.net/shutterstock/videos/14650636/thumb/1.jpg*/
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Login dropdown */
 #login-dp{
     min-width: 250px;
@@ -84,6 +98,7 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+	min-height:32px !important;
     /* the rest of your styling */
 }
 
@@ -160,6 +175,9 @@ li.on {
 
 .navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
     border-bottom: 3px solid #66ccff;
+}
+.navbar-nav > li > a {
+	padding-top:5px !important; padding-bottom:5px !important;
 }
 
 #advert{
