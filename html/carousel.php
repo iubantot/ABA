@@ -13,7 +13,7 @@
 		  <div class="carousel-inner" role="listbox" >
 			<div class="item active" align="center">
 				<div class="container fill-height">
-				<img class="img-responsive center-block" src="img/ad_1.jpg" alt="Chania">
+				<img class="img-responsive center-block" src="img/ad_1.png" alt="Chania">
 				</div>
 			</div>
 			<div class="item" align="center">
@@ -23,12 +23,12 @@
 			</div>
 			<div class="item" align="center">
 				<div class="container fill-height">
-			  <img class="img-responsive center-block" src="img/ad_3.jpg" alt="Chania">
+			  <img class="img-responsive center-block" src="img/ad_3.png" alt="Chania">
 				</div>
 			</div>
 			<div class="item" align="center">
 				<div class="container fill-height">
-			  <img class="img-responsive center-block" src="img/ad_4.jpg" alt="Chania">
+			  <img class="img-responsive center-block" src="img/ad_4.png" alt="Chania">
 				</div>
 			</div>
 
