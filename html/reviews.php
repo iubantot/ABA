@@ -15,14 +15,25 @@
 				<div class="col-md-8 container-fluid">
 					<!--DYNAMIC PANELS-->
 						<?php
-						if(isset($_GET["loanid"])){
-						$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanid"];
+						$re="";
+							if (isset($_GET["loanid"])){
+								$queryID = "SELECT * FROM loan WHERE loanID LIKE ".$_GET["loanid"];
+								$re="loan";
+							}else if(isset($_GET["creditid"])){
+								$queryID = "SELECT * FROM credit WHERE creditID LIKE ".$_GET["creditid"];
+								$re="credit";
+							}else if(isset($_GET["savingsid"])){
+								$queryID = "SELECT * FROM savings WHERE savingsID LIKE ".$_GET["savingsid"];
+								$re="savings";
+							}
 						$result = $conn->query($queryID);
 						$num = mysqli_num_rows($result);
 						if ($result->num_rows > 0) {
 							while($row = $result->fetch_assoc()) {
 								echo '<h3>'.$row["name"].'</h3>';
 							}
+						}else{
+							echo '<h3>No reviews provided.</h3>';
 						}
 						echo '<div class="well">';
 						echo	'GRAPH';
@@ -30,7 +41,7 @@
 						
 						$query = "SELECT * FROM reviews r
 						INNER JOIN users u ON r.userID=u.userID
-						WHERE loanid LIKE ".$_GET["loanid"];
+						WHERE ".$re."id LIKE ".$_GET["".$re."id"];
 						$result = $conn->query($query);
 						$num = mysqli_num_rows($result);
 						echo "<h4>".$num." Reviews</h4>";
@@ -52,7 +63,7 @@
 								
 							}
 						}
-						}
+						
 						
 						?>
 				</div>
