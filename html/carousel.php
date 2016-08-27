@@ -13,22 +13,22 @@
 		  <div class="carousel-inner" role="listbox" >
 			<div class="item active" align="center">
 				<div class="container fill-height">
-					<p>jsjfhdsjfjdsjfhjdshfjshdjfhsjfhjshdj</p>
+				<img class="img-responsive center-block" src="img/ad_1.png" alt="Chania">
 				</div>
 			</div>
 			<div class="item" align="center">
 				<div class="container fill-height">
-					<p>jsjfhdsjfjdsjfhjdshfjshdjfhsjfhjshdj</p>
+			  <img class="img-responsive center-block" src="img/ad_2.png" alt="Chania">
 				</div>
 			</div>
 			<div class="item" align="center">
 				<div class="container fill-height">
-					<p>jsjfhdsjfjdsjfhjdshfjshdjfhsjfhjshdj</p>
+			  <img class="img-responsive center-block" src="img/ad_3.png" alt="Chania">
 				</div>
 			</div>
 			<div class="item" align="center">
 				<div class="container fill-height">
-					<p>jsjfhdsjfjdsjfhjdshfjshdjfhsjfhjshdj</p>
+			  <img class="img-responsive center-block" src="img/ad_4.jpg" alt="Chania">
 				</div>
 			</div>
 
