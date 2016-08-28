@@ -69,7 +69,7 @@
         }
 
 
-        window.location.href = "html/resultsearch.php?status=" + status +"&type=" + type +"&min=" + min +"&max=" + max;
+        window.location.href = "results.php?status=" + status +"&type=" + type +"&min=" + min +"&max=" + max;
 
         console.log(status);
         console.log(type);
