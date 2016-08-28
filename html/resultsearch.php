@@ -13,7 +13,8 @@
 					
 					$status = $_GET["status"];
 					$type = $_GET["type"];
-					$range = $_GET["range"];
+					$min = $_GET["min"];
+					$max = $_GET["max"];
 					$table = "";
 					$re = "";
 					if($type=="savings"){
