@@ -53,7 +53,7 @@
 								$rating = $row["ratings"];
 								
 								echo '<div class="panel panel-primary">';
-								echo '<div class="panel panel-heading"><img src="showimage.php?id='.$userID.'" width="32" height="32"/> '.$row["username"].' &emsp;';
+								echo '<div class="panel panel-heading"><img src="html/showimage.php?id='.$userID.'" width="32" height="32"/> '.$row["username"].' &emsp;';
 								for($x = 0;$x<$rating;$x++){
 								echo '<span class="glyphicon glyphicon-star" aria-hidden="true"></span>';
 								}
