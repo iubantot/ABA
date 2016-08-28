@@ -28,10 +28,10 @@
 						$re = "features";
 					}else if($type=="debit"){
 						$table ="debit";
-						$re = "features";
+						$re="rqrmntsbasic";
 					}
 					
-					$query = "SELECT b.name AS 'bank', a.".$table."ID, a.name, a.".$re." FROM ".$table." a INNER JOIN bank b ON a.bankID=b.bankID WHERE a.rqmntsbasic LIKE '%".$status."%'";
+					$query = "SELECT b.name AS 'bank', a.".$table."ID, a.name, a.".$re." FROM ".$table." a INNER JOIN bank b ON a.bankID=b.bankID WHERE a.".$re." LIKE '%".$status."%'";
 					//echo $query;
 					$result = $conn->query($query);
 					$num = mysqli_num_rows($result);
