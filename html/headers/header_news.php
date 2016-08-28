@@ -10,7 +10,6 @@
       </button>
 		  <a class="navbar-brand" href="../ABA">
 		  <!--Logo here -->
-		  <img src="../ABA/img/logo.png" width="auto" height="100px">
 		  </a>
 		</div>
 	<div class="collapse navbar-collapse" id="myNavbar">
@@ -21,7 +20,7 @@
 			<li><a href="search.php"><i  aria-hidden="true"></i> Smart Search</a></li>
 			<li class="on dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i  aria-hidden="true"></i> What's New<span class="caret"></span></a>
-				<ul class="dropdown-menu"><a href="#arc1">UB QR-Code Payment</a></ul>
+				<ul class="dropdown-menu"><a href="#arc1">UBP QR-Code Payment</a></ul>
 			</li>
 			<li><a href="promotions.php"><i  aria-hidden="true"></i> Rewards</a></li>				
 			
