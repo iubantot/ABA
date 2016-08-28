@@ -714,3 +714,33 @@ PRICING STYLES
     .db-pricing-eleven.popular .price {
         padding-top: 80px;
     }
+	
+	
+.list-unstyled li{
+	padding-bottom: 10px;
+}
+
+.list-unstyled button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.list-unstyled button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+	
+	
+
+
+
+	
+	
+	

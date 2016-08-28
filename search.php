@@ -15,10 +15,15 @@
 		<br>
 		<br>
 		<br>
-		<div>
-		<?php
-			include "html/order.php";
-		?>
+		
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-5">
+			<?php
+				include "html/order.php";
+			?>
+			</div>
+			
 		</div>
 	</body>
 </html>
