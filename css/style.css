@@ -744,7 +744,15 @@ PRICING STYLES
 }
 	
 	
+.jumbotron{
+	background: #AED6F1;
+	transparent: true;
+	
+}
 
+.jumbotron h3{
+	color: #95A5A6;
+}
 
 
 	

@@ -21,11 +21,12 @@
 						$num = mysqli_num_rows($result);
 						if ($result->num_rows > 0) {
 							while($row = $result->fetch_assoc()) {
-								echo '<div class="row">';
+								
+								echo '<div class="jumbotron"><div class="row">';
 								echo '<div class="col-sm-5"> <img src="http://placehold.it/350x150"> </div>';
 								echo '<h1>'.$row["name"].'</h1>';
 								echo '<h3>'.$row["description"].'</h3>';
-								echo '</div><br>';
+								echo '</div></div><br>';
 							}
 						}
 						
