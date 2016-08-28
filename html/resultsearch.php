@@ -26,9 +26,13 @@
 					}else if($type=="credit"){
 						$table = "credit";
 						$re = "features";
+					}else if($type=="debit"){
+						$table ="debit";
+						$re = "features";
 					}
 					
 					$query = "SELECT b.name AS 'bank', a.".$table."ID, a.name, a.".$re." FROM ".$table." a INNER JOIN bank b ON a.bankID=b.bankID WHERE a.rqmntsbasic LIKE '%".$status."%'";
+					//echo $query;
 					$result = $conn->query($query);
 					$num = mysqli_num_rows($result);
 					if ($result->num_rows > 0) {
@@ -39,6 +43,8 @@
 							echo '<p>'.$row["bank"].'</p>';
 							echo '</div>';
 						}
+					}else{
+						echo '<h3>No results found.</h3>';
 					}
 				?>
 			</div>

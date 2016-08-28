@@ -2,30 +2,30 @@
     var status, type, max, min;
     function userclick(num, btnCredit, btnLoan, stud, emp, bal, salary){
         if(num==1){
-            status = "Student";
+            status = "student";
             hide("credit", "stud", "emp", "bal", "salary");
         }
         else if(num==2){
-            status = "Self-Employed";
+            status = "self-employed";
             show("credit", "loan", "stud", "emp", "bal", "salary");
         }
         else{
-            status = "Employed";
+            status = "employed";
             show("credit", "loan", "stud", "emp", "bal", "salary");
         }
     }
     function setAcct(num){
         if(num==1){
-            type = "Savings Account";
+            type = "savings";
         }
         else if(num==2){
-            type = "Debit Card";
+            type = "debit";
         }
         else if(num==3){
-            type = "Credit Card";
+            type = "credit";
         }
         else{
-            type = "Loan";
+            type = "loan";
         }
     }
     function setRange(num){
@@ -69,7 +69,7 @@
         }
 
 
-        window.location.href = "modules/result.php?status=" + status +"&type=" + type +"&min=" + min +"&max=" + max;
+        window.location.href = "html/resultsearch.php?status=" + status +"&type=" + type +"&min=" + min +"&max=" + max;
 
         console.log(status);
         console.log(type);
