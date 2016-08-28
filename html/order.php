@@ -32,7 +32,7 @@
                 </a></li>
                 <li class="disabled"><a href="#step-3">
                     <h4 class="list-group-item-heading">Step 3</h4>
-                    <p class="list-group-item-text"></p>Finance</p>
+                    <p class="list-group-item-text"></p>Monetary Range</p>
                 </a></li>
             </ul>
         </div>
@@ -46,13 +46,13 @@
 				<br>
     <ul class="list-unstyled" id="activate-step-2">
     <li>
-      <button class="btn btn-primary btn-lg" onClick='javascript:hide("credit", "stud", "emp", "bal", "salary")'>I'm a Student</button>
+      <button class="btn btn-primary btn-lg" name="student" onClick='javascript:hide("credit", "stud", "emp", "bal", "salary")'>I'm a Student</button>
     </li>
     <li>
-      <button class="btn btn-primary btn-lg" onClick='javascript:show("credit", "loan", "stud", "emp", "bal", "salary")'>I'm Self-Employed</button>
+      <button class="btn btn-primary btn-lg" name="self_emp" onClick='javascript:show("credit", "loan", "stud", "emp", "bal", "salary")'>I'm Self-Employed</button>
     </li>
     <li>
-      <button class="btn btn-primary btn-lg" onClick='javascript:show("credit", "loan", "stud", "emp", "bal", "salary")'>I'm an Employee</button>
+      <button class="btn btn-primary btn-lg" name="empl" onClick='javascript:show("credit", "loan", "stud", "emp", "bal", "salary")'>I'm an Employee</button>
     </li>
     </ul>
             </div>
